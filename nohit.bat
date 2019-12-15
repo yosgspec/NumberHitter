@@ -1,0 +1,1 @@
+@echo 50| py -3 nohit.py
