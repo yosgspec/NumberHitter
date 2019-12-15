@@ -2,7 +2,7 @@ import subprocess
 cmd=lambda cmd: subprocess.check_output(cmd,shell=True).decode("cp932")
 
 print("-- Number Hitter! --")
-correct=int(input())
+correct=int(input().strip())
 hint="START"
 result=""
 
